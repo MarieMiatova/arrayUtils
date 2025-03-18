@@ -1,11 +1,5 @@
 import fc from "fast-check";
-import {
-  findCommonElements,
-  groupByParity,
-  removeDuplicates,
-  sortNumbers,
-  sumPositiveNumbers
-} from "../src/arrayUtils.js";
+import { removeDuplicates, sortNumbers, sumPositiveNumbers, groupByParity, findCommonElements }  from "../src/arrayUtils.js";
 
 describe('Array Utilities Tests', () => {
   
